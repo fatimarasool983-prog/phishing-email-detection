@@ -9,8 +9,9 @@ import os
 # ==========================================
 # SECTION 2: LOAD TRAINED MODEL AND VECTORIZER
 # ==========================================
-model = joblib.load("models_experimental/phishing_model_bigrams.pkl")
-tfidf = joblib.load("models_experimental/tfidf_vectorizer_bigrams.pkl")
+model = joblib.load("phishing_model_bigrams.pkl")
+
+tfidf = joblib.load("tfidf_vectorizer_bigrams.pkl")
 # ==========================================
 # SECTION 3: EMAIL TEXT CLEANING
 # ==========================================
